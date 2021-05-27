@@ -38,7 +38,7 @@ int main ()
     uint64_t f;
     for (f = 1; f <= 0xFFFFFFFFFFFFFFFF; f++)
     {
-        if (TrialDivision(f) && BitCount(f) == 3)
+        if (TrialDivision(f) && BitCount(f) == 2)
         {
             cout << dec << f << "\t" << hex << f << endl;
             
